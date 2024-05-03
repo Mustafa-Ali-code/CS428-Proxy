@@ -256,8 +256,6 @@ void *thread(void *vargp) {
 
 pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
 
-FILE *log_file = NULL;  // Assuming you open this somewhere in main or before handling requests
-
 /*
  * log_request - Logs a request to a log file.
 */
